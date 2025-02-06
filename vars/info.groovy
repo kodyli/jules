@@ -1,5 +1,5 @@
 def call(message){
-    echo colorize "green" message
+    echo colorize( "green", message)
 }
 /*
 steps{
