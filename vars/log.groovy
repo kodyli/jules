@@ -1,5 +1,5 @@
 def info(message){
-    echo colorize "green" message
+    echo colorize("green", message)
 }
 /*
 steps{
@@ -10,5 +10,5 @@ steps{
 }
 */
 def error(message) {
-    echo colorize "red" message
+    echo colorize("red", message)
 }
