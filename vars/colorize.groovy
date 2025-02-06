@@ -1,4 +1,6 @@
 def call(color, message){
+    //Jenkins need to install AnsiColor and set 
+    //Global color map for all builds
     def colors = [
         "green": '\033[1;32m',  // Bright Green
         "red": '\033[1;31m',    // Bright Red
